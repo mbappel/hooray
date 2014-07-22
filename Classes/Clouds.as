@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class Clouds extends MovieClip {						public function Clouds() {			// constructor code		}		public function moveClouds()		{			x = x-10;			if ( x < -150 ){				x = 1200;			}		}	}	}

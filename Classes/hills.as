@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class hills extends MovieClip {						public function hills() {			// constructor code		}		public function hillMove()		{			x = x -10;			if ( x <0)			{				x = 480;			}		}	}	}
